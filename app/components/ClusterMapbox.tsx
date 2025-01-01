@@ -131,7 +131,10 @@ const ClusterMapbox: React.FC = () => {
     }
 
     return () => {
-      mapRef.current?.remove();
+      if (mapRef.current) {
+        mapRef.current.remove();
+        mapRef.current = null;
+      }
     };
   }, []);
 
