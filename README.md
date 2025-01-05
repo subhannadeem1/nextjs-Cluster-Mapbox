@@ -1,6 +1,6 @@
 # Next.js Cluster Mapbox
 
-![Mapbox Cluster](/mapbox.png)
+![Mapbox Cluster](./public/mapbox.png)
 
 🚀 A Next.js project demonstrating clustering functionality with Mapbox GL JS. This app visualizes GeoJSON data using interactive clusters and dynamic popups. Built with React and TypeScript, it showcases a scalable and modern implementation of Mapbox's clustering features.
 
